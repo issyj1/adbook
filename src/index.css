@@ -955,8 +955,12 @@ color: white;
           left: 30px;
         }
         .ij {
-          width: 100%;
-          padding-top: 30vh;
+          width: 40%;
+          padding-top: 5vh;
+        }
+        h4 {
+          font-size: 1.3em;
+
         }
       .centre {
         left: 10px;
