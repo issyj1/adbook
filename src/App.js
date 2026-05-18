@@ -61,10 +61,11 @@ const imgRef = useRef(null);
       <img className="ij" src="/adbook/img/Assets/ij2.png" alt="ij" />
      
       <div className="h2-container">
-</div>
+
 <div ref={ijRef} className="background-ij">IJ</div>
 
-
+<h4>Advertising folio</h4>
+</div>
 
       {/* Conditional Background IJ */}
      
@@ -76,7 +77,6 @@ const imgRef = useRef(null);
 <div className="background">
 
       <div className="content">
-        <h1>ADVERTS</h1>
 
       {/* ------------------ Projects Section ------------------ */}
       <div className="project-links" ref={projectLinksRef}>
