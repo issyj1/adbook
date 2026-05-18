@@ -58,11 +58,29 @@ const imgRef = useRef(null);
 
 <MyMasonryComponent></MyMasonryComponent>
       {/* Huge IJ background */}
+       {/* ------------------ Masonry & Extra Buttons ------------------ */}
+      
+       <ButtonGroup
+        buttons={extraLightboxes}
+        onClick={handleClick}
+        className="extra-buttons"
+        buttonClassName="extra-trigger-button"
+      />
+
+      {/* ------------------ Lightbox ------------------ */}
+      {current && (
+        <Lightbox
+          title={current.title}
+          contents={current.contents}
+          originRect={originRect}
+          onClose={() => setActiveProjectId(null)}
+          extraClass={extraClass}
+        />
+      )}
       <img className="ij" src="/adbook/img/Assets/ij2.png" alt="ij" />
      
       <div className="h2-container">
 
-<div ref={ijRef} className="background-ij">IJ</div>
 
 <h4>Advertising folio</h4>
 </div>
@@ -141,25 +159,7 @@ I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
 
 {/* Example: slow-scrolling photos */}
 
-      {/* ------------------ Masonry & Extra Buttons ------------------ */}
-      
-      <ButtonGroup
-        buttons={extraLightboxes}
-        onClick={handleClick}
-        className="extra-buttons"
-        buttonClassName="extra-trigger-button"
-      />
-
-      {/* ------------------ Lightbox ------------------ */}
-      {current && (
-        <Lightbox
-          title={current.title}
-          contents={current.contents}
-          originRect={originRect}
-          onClose={() => setActiveProjectId(null)}
-          extraClass={extraClass}
-        />
-      )}
+     
 
       {/* ------------------ Footer Images ------------------ */}
       <img className="img3" src="/adbook/img/meart.jpg" alt="Me" />

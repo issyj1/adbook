@@ -307,7 +307,7 @@ h2.slidein.show {
   font-size: 1.2rem;
   color: white;
   cursor: pointer;
-    background-color: rgba(140, 1, 153, 0.9);
+    background-color: rgba(135, 135, 135, 0.9);
 
   margin-bottom: 0.5rem;
   font-family: Helvetica, sans-serif;
@@ -422,36 +422,37 @@ h2.slidein.show {
 
 .extra-buttons {
   display: grid;  
-  grid-template-columns: 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr; 
   flex-direction: row; /* Layout buttons in a row */
   gap: 0px;        /* Space between buttons */
   z-index: 1000; 
-  bottom: 10px; 
   margin: 0;
   left: 0px;  /* Make sure it’s above other elements */
   position: relative;
-min-height: 150px;
+width: 20vh;
+align-items: center;
+margin: 0 auto;
+margin-bottom: 6vh;
 }
 
 .extra-trigger-button {
   background: transparent;
   color: rgb(0, 0, 0);
   border: 2px solid #ffffff;
-  padding: 3rem 1rem;
-  font-size: 1rem;
+  font-size: 0.6rem;
   cursor: pointer;
-  margin: 10px;
+  margin: 1px;
   transition: background-color 0.3s;
   border-radius: 4px;
   font-family: 'Shango';
   font-weight: bold;
   background-color: rgba(250, 250, 250, 0.4);
+border-color: #777678;
 
 }
 
 .extra-trigger-button:hover {
-  background-color: rgba(78, 8, 86, 0.8);
-  color: white;
+  background-color:#c0bebe;
 }
 
 .extra-lightbox {
@@ -539,7 +540,7 @@ position: right;
     /* Create four equal columns that sits next to each other */
   
     h4 {
-      font-size: 1.6em;
+      font-size: 1.3em;
       margin: 0 auto;
 
     }
@@ -557,7 +558,7 @@ position: right;
   overflow: hidden;
   font-size: 1em;
   color: blueviolet;
-  margin-top: 20vh;
+  margin-top: 10vh;
   /* Initial narrow width */
   width: 55%;
   transition: width 0.5s ease, background-color 0.3s ease;
@@ -565,7 +566,8 @@ position: right;
   position: relative;
 min-height: 250px;
 background-color: rgba(250, 250, 250, 0.3);
-margin-bottom: 20vh;
+margin-bottom: 10vh;
+border-color: blueviolet;
 }
 
 .expandable-button-wide.open {
@@ -761,7 +763,7 @@ h5 {
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2rem; /* adds space between letters */
-  color: rgb(191, 0, 255, 0.3); /* Slightly different from your background */
+  color: rgba(65, 239, 255, 0.8); /* Slightly different from your background */
   z-index: 0; /* Behind everything */
   pointer-events: none; /* So it doesn’t block clicks */
   user-select: none;
@@ -808,12 +810,13 @@ h5 {
   width: 11%;
   background: transparent;
   box-shadow: none;
-  position: absolute;
+  position: relative;
+  margin-bottom: 5vh;
 
 }
 
 .right-hand {
-  position: absolute;
+  position: relative;
   width: 30px;
   background: transparent;
   box-shadow: none;
@@ -851,9 +854,7 @@ padding-left: 0px;
   }
 
 .extra-buttons {
-  grid-template-columns: 1fr 1fr 1fr; 
 
-  left: 0px;
 }
 .page-grid img {
   width: 60%;
@@ -923,24 +924,13 @@ padding-left: 0px;
           letter-spacing: 0.rem; /* adds space between letters */
 
         }
-        img.right-hand {
-          width: 40px;
-margin-top: 0vh;
-        }
-        .links {
-          background: transparent;
-          box-shadow: none;
-          position: absolute;
-          padding-bottom: 10px;
-          margin-top: 30px;
-        }
+     
+       
         .right-hand {
          
-          margin-top: 100px;
           position: absolute;
         }
         img.links {
-          padding-bottom: 4vh;
         }
         
         .img2 {
@@ -955,7 +945,7 @@ margin-top: 0vh;
         }
         .extra-buttons {
           left: 0px;
-          grid-template-columns: 2fr; 
+
         }
         .page-grid img {
           width: 90%;
