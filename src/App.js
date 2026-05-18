@@ -61,7 +61,6 @@ const imgRef = useRef(null);
       <img className="ij" src="/adbook/img/Assets/ij2.png" alt="ij" />
      
       <div className="h2-container">
-<h6>ADVERTISING FOLIO</h6>
 </div>
 <div ref={ijRef} className="background-ij">IJ</div>
 
@@ -71,15 +70,8 @@ const imgRef = useRef(null);
      
     
       {/* Main content */}
-      <img className="img2" src="/adbook/img/headsedited.JPG" alt="Me" />
  {/* ------------------ Intro Section ------------------ */}
- <ExpandableIntro fullText={`Hi, I'm Isabelle (or Issy) and I'm a creative.
-I’ve been lucky enough to work with some of the business's biggest brands and awarded agencies including Mother, Saatchi & Saatchi and BETC Paris.
-I’m a cultural sponge who aspires to Jack Dee’s sense of humour and always carries a Sakura Pigma Micron 02 fineliner. In my previous life before advertising I worked at Vogue Paris which was full of very serious people, so I decided to be silly for a living. I have a sharp radar for bullshit – especially my own.
-Having graduated from UCL, I speak multiple languages and also work as a photographer inside and outside of adland.
-I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
 
-{/* Example: slow-scrolling photos */}
 
 <div className="background">
 
@@ -140,7 +132,14 @@ I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
 </div>
     </div>
 
+    <ExpandableIntro fullText={`Hi, I'm Isabelle (or Issy) and I'm a creative.
+I’ve been lucky enough to work with some of the business's biggest brands and awarded agencies including Mother, Saatchi & Saatchi and BETC Paris, plus running my own creative studio for the past 2 years.
 
+I’m a cultural sponge who aspires to Jack Dee’s sense of humour and always carries a Sakura Pigma Micron 02 fineliner. In my previous life before advertising I worked at Vogue Paris which was full of very serious people, so I decided to be silly for a living. I have a sharp radar for bullshit – especially my own.
+Having graduated from UCL, I speak multiple languages and also work as a photographer inside and outside of adland.
+I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
+
+{/* Example: slow-scrolling photos */}
 
       {/* ------------------ Masonry & Extra Buttons ------------------ */}
       
@@ -163,7 +162,7 @@ I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
       )}
 
       {/* ------------------ Footer Images ------------------ */}
-      <img className="img2" src="/adbook/img/meart.jpg" alt="Me" />
+      <img className="img3" src="/adbook/img/meart.jpg" alt="Me" />
 
       <h3>My other sites:</h3>
 

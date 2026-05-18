@@ -148,9 +148,9 @@ export const projects = [
         id: 12,
         title: "EE Stay Connected",
         contents: [
-          { type: "text", text: "If there’s one thing that Creative Directors have in common, it’s that getting it right when it comes to footwear is of high sartorial importance. So much so, that you might even be able to tell who your Creative Director is just by looking at their shoes." },
-          { type: "text", text: "So I captured Creatives' feet at Havas and then invited viewers to guess whose shoes belonged to who." },
-          { type: "text", text: "The project garnered over 3000 media impressions." },
+          { type: "text", text: "Safe commuting is a major issue especially for students traveling home alone at night. EE wanted to tackle the issue." },
+          { type: "text", text: "Taking over Manchester, one of the UK's biggest student cities, EE Stay Connected used live travel data, AR and lighting technology to help Manchester students plan and track journeys home or to safe spaces." },
+          { type: "text", text: "The campaign won the Ocean Outdoor prize." },
 
           { type: "image", src: "/img/cdshoes/1.JPG", alt: "Sock image 3" },
           { type: "image", src: "/img/cdshoes/2.JPG", alt: "Sock image 3" },
@@ -205,7 +205,14 @@ export const projects = [
           <li><strong>Company site: </strong>
     <a href="https://newworldcreative.studio" target="_blank" rel="noopener noreferrer" className="link-style">
       newworldcreative.studio
-    </a>              
+    </a>                        
+  </ul>
+          `
+        },
+        {
+          type: "html",
+          html: `
+            <ul class="awards-list">
 <li><strong>Photo site: </strong>
     <a href="https://isabellejohnsonphoto.com" target="_blank" rel="noopener noreferrer" className="link-style">
       isabellejohnsonphoto.com
@@ -214,6 +221,8 @@ export const projects = [
   </ul>
           `
         },
+        { type: "image", src: "/img/snake.png", alt: "Extra A image" },
+
       ]
     },
     {
@@ -227,14 +236,33 @@ export const projects = [
           html: `
             <ul class="awards-list">
               <li><strong>British Arrows</strong>5x Nomination</li>
+              <li><strong>Ocean Digital Creative Competition</strong>First Prize, 2022</li>
+              <li><strong>Campaign Media Awards</strong>Gold</li>
               <li><strong>Cream 2020</strong> Winner</li>
               <li><strong>Cream 2021</strong> Winner</li>
-              <li><strong>Campaign Big Awards</strong> – Winner, 2023</li>
-              <li><strong>Vogue Feature</strong> – Photographer Highlight, 2022</li>
+              <li><strong>The Drum Awards</strong>Innovation Award</li>
+              <li><strong>Visionary Arts Awards TV</strong>Nomination</li>
+
             </ul>
           `
         },
-        { type: "image", src: "/img/431A7267.jpg", alt: "Extra A image" },
+        { type: "text", text: "Press..." },
+        {
+          type: "html",
+          html: `
+            <ul class="awards-list">
+              <li><strong>The Drum Ad of the Day</strong></li>
+              <li><strong>Campaign Magazine</strong></li>
+              <li><strong>The Mirror</strong></li>
+              <li><strong>The Daily Mail</strong></li>
+              <li><strong>Edinburgh News</strong></li>
+              <li><strong>Refinery29</strong></li>
+              <li><strong> The Scotsman</strong></li>
+              <li><strong>Elle France</strong></li>
+              <li><strong>Vogue UK</strong></li>
+            </ul>
+          `
+        },
       ]
     },
     {
@@ -242,10 +270,24 @@ export const projects = [
         title: "Etc",
         buttonLabel: "Etc",
         contents: [
-          { type: "text", text: "I always have a creative project on the go. Below are just a few." },
+
+          { type: "text", text: "I always have a creative project on the go. Below are just a few. I am a member of the Association of Photographers and love to combine photography and illustration." },
+          { type: "image", src: "/img/flowers/flower1.JPG", alt: "flower1" },
+          { type: "image", src: "/img/flowers/flower2.jpg", alt: "flower 2" },
+          { type: "image", src: "/img/flowers/flower3.jpg", alt: "flower 3" },
           { type: "image", src: "/img/illustration.jpeg", alt: "Extra A image" },
           { type: "image", src: "/img/snake.png", alt: "Extra A image" },
-
+          {
+            type: "html",
+            html: `
+              <ul class="awards-list">
+            <li><strong>View more Projects on my Instagram: </strong>
+      <a href="https://www.instagram.com/issyj1/?hl=en-gb" target="_blank" rel="noopener noreferrer" className="link-style">
+        @issyj1
+      </a>                       
+    </ul>
+         `
+          },
         ]
       },
    
