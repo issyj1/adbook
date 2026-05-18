@@ -98,12 +98,10 @@ margin-bottom: 5vh;
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 1.7em;
   font-family: 'Shango', Helvetica, sans-serif;
   font-weight: 100;
-  text-align: center;
-padding-top: 150px;
-    color: rgb(77, 0, 102);
+    color: rgb(90, 90, 90);
   
 
 }
@@ -286,7 +284,7 @@ h2.slidein.show {
   font-size: 2rem;
   background: none;
   border: none;
-  color: #333333;
+  color: #bfb9b9;
   cursor: pointer;
 }
 
@@ -807,7 +805,7 @@ h5 {
 
 
 .links {
-  width: 15%;
+  width: 11%;
   background: transparent;
   box-shadow: none;
   position: absolute;
@@ -816,20 +814,12 @@ h5 {
 
 .right-hand {
   position: absolute;
-  width: 50px;
+  width: 30px;
   background: transparent;
   box-shadow: none;
   right: 2px;
   margin-top: -150px;
   position: absolute;
-}
-.centre {
-  width: 100px;
-  left: 20%;
-  background: transparent;
-  box-shadow: none;
-  transform: rotate(90deg);
-  padding-bottom: 50vh;
 }
 
 
@@ -847,8 +837,8 @@ h5 {
 
 a {
 display: block;
-min-height: 150px;
 color: white;
+padding-left: 0px;
 }
 
 
@@ -935,7 +925,24 @@ color: white;
         }
         img.right-hand {
           width: 40px;
+margin-top: 0vh;
         }
+        .links {
+          background: transparent;
+          box-shadow: none;
+          position: absolute;
+          padding-bottom: 10px;
+          margin-top: 30px;
+        }
+        .right-hand {
+         
+          margin-top: 100px;
+          position: absolute;
+        }
+        img.links {
+          padding-bottom: 4vh;
+        }
+        
         .img2 {
           width: 80%;
           margin: 0 auto;
