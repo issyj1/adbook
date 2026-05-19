@@ -155,13 +155,15 @@ img {
 }
 
 .img2, .img3 {
-max-width: 300px;
+max-width: 200px;
 
 }
 
 .img3 {
   width: 80%;
-  max-width: 300px;
+  max-width: 250px;
+  margin-top: 4%;
+  margin-bottom: 4%;
 
 }
 
@@ -300,7 +302,7 @@ h2.slidein.show {
 .project-title-button {
   background: none;
   border: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: white;
   cursor: pointer;
     background-color: rgba(135, 135, 135, 0.9);
@@ -309,7 +311,19 @@ h2.slidein.show {
   text-decoration: underline;
   margin-left: 0;
   padding: 0;
-  
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: 2px solid #ffffff;
+  font-size: 0.6rem;
+  cursor: pointer;
+  margin: 1px;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+  border-width: 1px;
+  font-family: 'Shango';
+  font-weight: bold;
+  background-color: rgb(250, 250, 250);
+border-color: #777678;
 }
 .project-title-button:hover {
   
@@ -350,14 +364,15 @@ h2.slidein.show {
     width: 95%;          /* Take most of screen width */
     max-width: 90%;      /* Allow some padding */
     padding: 10px;       /* Slightly smaller padding */
-    border-radius: 8px;  /* Slightly smaller corners */
+    border-radius: 8px; 
+    padding-bottom: 10vh; /* Slightly smaller corners */
   }
 }
 
 .project-gallery .lightbox-text {
   /* Your custom styles here */
   color: #222;          /* example: change text color */
-  font-size: 1.1rem;    /* example: bigger font */
+  font-size: 0.9rem;    /* example: bigger font */
   line-height: 1.5;     /* example: better spacing */
   margin-bottom: 1rem;  /* spacing below paragraphs */
   font-family: 'Arial', sans-serif; /* override body font */
@@ -404,7 +419,7 @@ h2.slidein.show {
 
 
 .lightbox-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: bold;
   text-align: center;
@@ -438,6 +453,7 @@ right: 30px;
   margin: 1px;
   transition: background-color 0.3s;
   border-radius: 4px;
+  border-width: 1px;
   font-family: 'Shango';
   font-weight: bold;
   background-color: rgba(250, 250, 250, 0.4);
@@ -502,7 +518,7 @@ position: right;
 
   .extra-lightbox .lightbox-text {
     color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: bold;
   }
 /*galleries in section pages */
@@ -510,11 +526,11 @@ position: right;
 
 .awards-list {
   list-style: disc;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
   line-height: 1.6;
   margin-top: 1rem;
   color: #cdcdcd; /* Customize text color */
-  font-size: 1rem; /* Customize size */
+  font-size: 0.9rem; /* Customize size */
   font-family: 'Helvetica Neue', sans-serif;
     text-decoration: none;
 
@@ -558,7 +574,7 @@ position: right;
   cursor: pointer;
   text-align: left;
   overflow: hidden;
-  font-size: 1em;
+  font-size: 0.9em;
   color: rgb(91, 91, 91);
   /* Initial narrow width */
   width: 75%;
@@ -813,7 +829,7 @@ h5 {
 
 
 .links {
-  width: 11%;
+  width: 9%;
   background: transparent;
   box-shadow: none;
   position: relative;
@@ -953,8 +969,7 @@ padding-left: 0px;
           margin-top: 3%;
         }
         .img3 {
-          margin-top: -10px;
-          margin-bottom: -10px;
+         
  
         }
         .extra-buttons {

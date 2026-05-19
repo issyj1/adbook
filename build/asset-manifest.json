@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/adbook/static/css/main.6089cfbf.css",
-    "main.js": "/adbook/static/js/main.5f7fe573.js",
+    "main.css": "/adbook/static/css/main.811de53d.css",
+    "main.js": "/adbook/static/js/main.ce484335.js",
     "static/js/453.96453769.chunk.js": "/adbook/static/js/453.96453769.chunk.js",
     "static/media/tiger.png": "/adbook/static/media/tiger.c5a4f490e55580e8b1ed.png",
     "static/media/Shango-Regular.woff": "/adbook/static/media/Shango-Regular.8579b073266577f83605.woff",
     "index.html": "/adbook/index.html",
-    "main.6089cfbf.css.map": "/adbook/static/css/main.6089cfbf.css.map",
-    "main.5f7fe573.js.map": "/adbook/static/js/main.5f7fe573.js.map",
+    "main.811de53d.css.map": "/adbook/static/css/main.811de53d.css.map",
+    "main.ce484335.js.map": "/adbook/static/js/main.ce484335.js.map",
     "453.96453769.chunk.js.map": "/adbook/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6089cfbf.css",
-    "static/js/main.5f7fe573.js"
+    "static/css/main.811de53d.css",
+    "static/js/main.ce484335.js"
   ]
 }
