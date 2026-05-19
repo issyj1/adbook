@@ -146,7 +146,6 @@ const imgRef = useRef(null);
    
 </div>
     </div>
-    <img className="img3" src="/adbook/img/meart.jpg" alt="Me" />
 
     <ExpandableIntro fullText={`Hi, I'm Isabelle (or Issy) and I'm a creative.
 I’ve been lucky enough to work with some of the business's biggest brands and awarded agencies including Mother, Saatchi & Saatchi and BETC Paris, plus running my own creative studio for the past 2 years.
@@ -160,6 +159,7 @@ I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
      
 
       {/* ------------------ Footer Images ------------------ */}
+      <img className="img3" src="/adbook/img/meart.jpg" alt="Me" />
       <div className="h2-container">
 
       <h4>My other sites:</h4>
