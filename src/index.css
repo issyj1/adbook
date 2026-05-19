@@ -829,16 +829,16 @@ h5 {
 
 
 .links {
-  width: 9%;
+  width: 5%;
   background: transparent;
   box-shadow: none;
   position: relative;
-  margin-bottom: 5vh;
+  margin-bottom: 1vh;
 }
 
 .right-hand {
   position: relative;
-  width: 30px;
+  width: 20px;
   background: transparent;
   box-shadow: none;
   right: 0px;
@@ -1011,7 +1011,8 @@ padding-left: 0px;
       .background {
     background-attachment: scroll; /* removes fixed */
     background-position: center;
-    height: 90vh;
+    height: 50vh;
+    margin-bottom: 10vh;
   }
 
     }

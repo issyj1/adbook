@@ -170,12 +170,10 @@ I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
       <a href="https://isabellejohnsonphoto.com" target="_blank" rel="noopener noreferrer">
     <img className="links" src="/adbook/img/Assets/photo.png" alt="ij" />
 </a>
-      <img className="right-hand" src="/adbook/img/Assets/arrow.png" alt="ij" />
       <br />
       <a href="https://newworldcreative.studio" target="_blank" rel="noopener noreferrer">
   <img className="links" src="/adbook/img/Assets/studio.png" alt="ij" />
 </a>
-      <img className="right-hand" src="/adbook/img/Assets/arrow.png" alt="ij" />
       
 <p className="footer">Bespoke build by Isabelle Johnson at newworldcreative.studio </p>
     </div>
