@@ -153,7 +153,6 @@ const imgRef = useRef(null);
      
 
       {/* ------------------ Footer Images ------------------ */}
-      <div className="h2-container">
 
       <h4>My other sites:</h4>
 
@@ -164,7 +163,6 @@ const imgRef = useRef(null);
       <a href="https://newworldcreative.studio" target="_blank" rel="noopener noreferrer">
   <img className="links" src="/adbook/img/Assets/studio.png" alt="ij" />
 </a>
-</div>
       
 <p className="footer">Bespoke build by Isabelle Johnson at newworldcreative.studio </p>
     </div>

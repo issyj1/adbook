@@ -831,7 +831,7 @@ h5 {
 
 
 .links {
-  width: 35%;
+  width: 10%;
   background: transparent;
   box-shadow: none;
   position: relative;
@@ -912,7 +912,7 @@ padding-left: 0px;
      h1 {
         display: block;
         width: 45%;
-        font-size: 2em;
+        font-size: 1em;
         padding-top: 5px;
         left: 0;
         white-space: nowrap;
@@ -974,7 +974,7 @@ padding-left: 0px;
  
         }
         .extra-buttons {
-          right: 0px;
+left: 10px;
 
         }
         .page-grid img {
@@ -986,7 +986,7 @@ padding-left: 0px;
           padding-top: 5vh;
         }
         h4 {
-          font-size: 1em;
+          font-size: 0.7em;
 
         }
       .centre {
