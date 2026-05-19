@@ -299,6 +299,7 @@ h2.slidein.show {
   margin-top: 30px;
   font-weight: bold;
   color: white;
+  font-family: "Scandia";
 }
 
 .project-title-button {
@@ -339,13 +340,12 @@ h2.slidein.show {
 
 .background {
   position: relative;
-  height: 100vh;
+  height: 60vh;
   background-image: url("./assets/img/tiger.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
 }
 
 
@@ -557,26 +557,19 @@ position: right;
   text-align: left;
   overflow: hidden;
   font-size: 1em;
-  color: blueviolet;
-  margin-top: 10vh;
+  color: rgb(91, 91, 91);
   /* Initial narrow width */
-  width: 55%;
+  width: 75%;
   transition: width 0.5s ease, background-color 0.3s ease;
   z-index: 100;
   position: relative;
-min-height: 250px;
+min-height: 150px;
 background-color: rgba(250, 250, 250, 0.3);
-margin-bottom: 10vh;
-border-color: blueviolet;
 }
 
 .expandable-button-wide.open {
   width: 100%; /* expands to full width */
   grid-column: span 2;
-  font-size: 1.1em;
-
-  color: rgba(238, 238, 238, 0.9);
-  background-color: rgba(138, 43, 226, 0.8);
 }
 
 .expandable-text {
@@ -786,7 +779,7 @@ h5 {
 
 
 .ij {
-  width: 20%;
+  width: 15%;
   padding-bottom: 2%;
   max-width: 800px;
   margin: 0 auto;

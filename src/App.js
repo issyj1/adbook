@@ -82,7 +82,7 @@ const imgRef = useRef(null);
       <div className="h2-container">
 
 
-<h4>Advertising folio</h4>
+<h4>Advertising Folio</h4>
 </div>
 
       {/* Conditional Background IJ */}

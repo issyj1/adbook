@@ -200,7 +200,6 @@ export const projects = [
           type: "html",
           html: `
             <ul class="awards-list">
-              <li><strong>Phone: </strong>07847578611</li>
               <li><strong>Email: </strong>isabellejohnson826@gmail.com</li>
           <li><strong>Company site: </strong>
     <a href="https://newworldcreative.studio" target="_blank" rel="noopener noreferrer" className="link-style">
@@ -221,7 +220,6 @@ export const projects = [
   </ul>
           `
         },
-        { type: "image", src: "/img/snake.png", alt: "Extra A image" },
 
       ]
     },
