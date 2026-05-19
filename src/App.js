@@ -77,8 +77,8 @@ const imgRef = useRef(null);
           extraClass={extraClass}
         />
       )}
+
       <img className="ij" src="/adbook/img/Assets/ij2.png" alt="ij" />
-     
       <div className="h2-container">
 
 
@@ -163,9 +163,10 @@ I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
 
       {/* ------------------ Footer Images ------------------ */}
       <img className="img3" src="/adbook/img/meart.jpg" alt="Me" />
+      <div className="h2-container">
 
-      <h3>My other sites:</h3>
-
+      <h4>My other sites:</h4>
+</div>
       <a href="https://isabellejohnsonphoto.com" target="_blank" rel="noopener noreferrer">
     <img className="links" src="/adbook/img/Assets/photo.png" alt="ij" />
 </a>
@@ -176,7 +177,7 @@ I attended School of Communication Arts 2.0 2019/20 with a scholarship.`} />
 </a>
       <img className="right-hand" src="/adbook/img/Assets/arrow.png" alt="ij" />
       
-
+<p className="footer">Bespoke build by Isabelle Johnson at newworldcreative.studio </p>
     </div>
   );
 }
