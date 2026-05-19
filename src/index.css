@@ -431,13 +431,13 @@ border-color: #777678;
 
 .extra-buttons {
   display: grid;  
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
   flex-direction: row; /* Layout buttons in a row */
   gap: 0px;        /* Space between buttons */
   z-index: 1000; 
   margin: 0;
   position: absolute;
-width: 20vh;
+width: 30vh;
 align-items: center;
 margin-bottom: 6vh;
 right: 30px;
@@ -552,14 +552,13 @@ position: right;
     h4 {
       font-size: 0.9em;
       cursor: grab;
-      margin: 0;
       font-weight: 100;
-      text-align: center; /* Ensure text is centered vertically */
+      text-align: left; /* Ensure text is centered vertically */
       position: block; /* Use absolute positioning */
-      left: 0; /* Align to the left side */
+      left: 10px; /* Align to the left side */
       top: 50%; /* Center the text vertically */
       color: black;
-      padding-bottom: 5vh;
+      padding-bottom: 0vh;
       font-family: "Shango";
     }
 
@@ -1011,7 +1010,7 @@ padding-left: 0px;
       .background {
     background-attachment: scroll; /* removes fixed */
     background-position: center;
-    height: 50vh;
+    height: 70vh;
     margin-bottom: 10vh;
   }
 
