@@ -55,6 +55,7 @@ const imgRef = useRef(null);
 
   return (
     <div className="app-container">
+<p className="background-ij"></p>
 
 <MyMasonryComponent></MyMasonryComponent>
       {/* Huge IJ background */}
