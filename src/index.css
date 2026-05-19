@@ -89,8 +89,13 @@ h2 {
 }
 
 .h2-container {
-display: flex;
-margin-bottom: 5vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  display: flex;
+  flex-direction: row; /* Layout buttons in a row */
+  gap: 10px;        /* Space between buttons */
+  position: relative;
+width: 80%;
+margin-top: 5vh;
 }
 
 h3 {
@@ -554,11 +559,9 @@ position: right;
       cursor: grab;
       font-weight: 100;
       text-align: left; /* Ensure text is centered vertically */
-      position: block; /* Use absolute positioning */
       left: 10px; /* Align to the left side */
       top: 50%; /* Center the text vertically */
       color: black;
-      padding-bottom: 0vh;
       font-family: "Shango";
     }
 
@@ -828,7 +831,7 @@ h5 {
 
 
 .links {
-  width: 5%;
+  width: 35%;
   background: transparent;
   box-shadow: none;
   position: relative;
@@ -869,10 +872,9 @@ padding-left: 0px;
 .footer {
   font-size: 0.7em;
   color: rgb(176, 10, 10);
-  font-family: "";
-  right: 30px;
+  right: 5px;
   position: absolute;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 750px) and (min-width: 460px){

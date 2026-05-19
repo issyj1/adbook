@@ -79,10 +79,8 @@ const imgRef = useRef(null);
       )}
 
       <img className="ij" src="/adbook/img/Assets/ij2.png" alt="ij" />
-      <div className="h2-container">
 
 <h4>Advertising Folio</h4>
-</div>
 
       {/* Conditional Background IJ */}
      
@@ -158,7 +156,7 @@ const imgRef = useRef(null);
       <div className="h2-container">
 
       <h4>My other sites:</h4>
-</div>
+
       <a href="https://isabellejohnsonphoto.com" target="_blank" rel="noopener noreferrer">
     <img className="links" src="/adbook/img/Assets/photo.png" alt="ij" />
 </a>
@@ -166,9 +164,11 @@ const imgRef = useRef(null);
       <a href="https://newworldcreative.studio" target="_blank" rel="noopener noreferrer">
   <img className="links" src="/adbook/img/Assets/studio.png" alt="ij" />
 </a>
+</div>
       
 <p className="footer">Bespoke build by Isabelle Johnson at newworldcreative.studio </p>
     </div>
+    
   );
 }
 
