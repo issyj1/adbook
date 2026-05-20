@@ -55,7 +55,6 @@ const imgRef = useRef(null);
 
   return (
     <div className="app-container">
-<p className="background-ij"></p>
 
 <MyMasonryComponent></MyMasonryComponent>
       {/* Huge IJ background */}
@@ -120,7 +119,7 @@ const imgRef = useRef(null);
                 
                   handleClick(e, project.id);
                 }}              >
-                {project.title} <span>&#8595;</span>
+                {project.title}
               </button>
 
               {hoveredProjectId === project.id && firstImage && (

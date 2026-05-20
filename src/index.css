@@ -559,6 +559,9 @@ position: right;
   font-size: 0.95em;
   padding-top: 5vh;
   width: 70%;
+  font-weight: 300;
+  font-family: "Helvetica";
+  color: black;
 }
 
 .expandable-button-wide {
