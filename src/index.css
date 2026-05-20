@@ -473,7 +473,7 @@ border-color: #777678;
   background-color: #000000; /* pink background */
   color: #ffffff;
   max-width: 700px;
-  border-radius: 0;
+  border-radius: 12px;
 }
 
 .extra-trigger-button.contact-button {
