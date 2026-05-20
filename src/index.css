@@ -474,6 +474,7 @@ border-color: #777678;
   color: #ffffff;
   max-width: 700px;
   border-radius: 12px;
+  padding-bottom: 10vh;
 }
 
 .extra-trigger-button.contact-button {
